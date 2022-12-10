@@ -1,0 +1,269 @@
+ body {
+     text-align: center;
+     background: linear-gradient(#011B2Cff, rgb(25, 1, 25));
+ }
+
+
+ /* Hero */
+ #title-vancouver {
+     color: white;
+     margin-bottom: 0;
+ }
+
+ #travel-guide {
+     color: orange;
+     margin-top: 0;
+ }
+
+ #hero {
+     background-image: url("images/vv.jpg");
+     background-size: cover;
+     width: 720px;
+     height: 400px;
+     display: block;
+     margin: 0 auto;
+     border: 2px solid white;
+ }
+
+ /* Middle Container */
+ #top-3-vancouver {
+     font-size: 30px;
+     color: orange;
+     padding-bottom: 20px;
+     margin-top: 60px;
+     margin-bottom: 40px;
+ }
+
+ #secondContainer {
+     display: flex;
+     width: 720px;
+     justify-content: center;
+     flex-direction: column;
+
+     color: white;
+     background: linear-gradient(#010A11ff, #011B2Cff);
+
+     margin: 0px auto;
+     padding: 0px;
+     border-right: 2px solid white;
+     border-left: 2px solid white;
+     border-bottom: 2px solid white;
+     line-height: 0;
+ }
+
+ /* Middle Images */
+ #imagesTriple {
+     display: flex;
+     justify-content: space-evenly;
+     align-items: flex-start;
+     flex-direction: row;
+     margin-bottom: 0px;
+     padding-bottom: 0;
+ }
+
+ #img1 {
+     width: 200px;
+     height: 150px;
+     margin: 0px;
+     padding: 0;
+     border: 2px solid green;
+     border-radius: 15px;
+     background-image: url(images/mountain2.jpg);
+     background-size: cover;
+ }
+
+ #img2 {
+     width: 200px;
+     height: 150px;
+     margin: 0px;
+     padding: 0;
+     border: 2px solid blue;
+     border-radius: 15px;
+     background-image: url(images/mountain.jpg);
+     background-size: cover;
+ }
+
+ #img3 {
+     width: 200px;
+     height: 150px;
+     margin: 0px;
+     padding: 0;
+     border: 3px solid red;
+     border-radius: 15px;
+     background-image: url(images/rogers.jpg);
+     background-size: cover;
+     background-position: left;
+ }
+
+ /* Hover Effects */
+ #img1:hover {
+     background-image: url(images/lake.gif);
+     background-position: center;
+ }
+
+ #img2:hover {
+     background-image: url(images/snow.gif);
+     background-position: center;
+ }
+
+ #img3:hover {
+     background-image: url(images/h.gif);
+     background-position: center;
+ }
+
+
+
+
+ /* Middle text */
+ #list-activities {
+     display: flex;
+     justify-content: space-around;
+     margin: 0 25px;
+     color: white;
+     padding: 0px;
+ }
+
+ #one {
+     margin-top: 10px;
+     margin-bottom: 5px;
+     padding: 10px;
+     color: green;
+     border: 3px solid green;
+     border-radius: 20px;
+     background-color: beige;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+ #two {
+     margin-top: 10px;
+     margin-bottom: 5px;
+     margin-left: 5px;
+     padding: 10px;
+     color: blue;
+     border: 3px solid blue;
+     border-radius: 20px;
+     background-color: beige;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+ #three {
+     margin-top: 10px;
+     margin-bottom: 5px;
+     padding: 10px;
+     color: red;
+     border: 3px solid red;
+     border-radius: 20px;
+     background-color: beige;
+     font-weight: bold;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+ }
+
+
+ /* paragraph */
+ #listBelow {
+     display: flex;
+     width: 630px;
+     justify-content: center;
+     line-height: 20px;
+     margin: 0px auto;
+ }
+
+ #first {
+     /* margin-left: 5px; */
+     padding: 5px 10px;
+     width: 1000px;
+     border-radius: 20px;
+     border: 2px solid transparent;
+
+ }
+
+ #second {
+     margin-left: 60px;
+     margin-right: 60px;
+     padding: 5px 10px;
+     width: 1000px;
+     border: 2px solid transparent;
+     border-radius: 20px;
+
+ }
+
+ #third {
+     padding: 5px 10px;
+     width: 1000px;
+     border: 2px solid transparent;
+     border-radius: 20px;
+ }
+
+ /* Last container */
+ #lastContainer {
+     display: flex;
+     width: 720px;
+     height: 400px;
+     justify-content: center;
+     flex-direction: column;
+
+     color: white;
+     background: linear-gradient(#010A11ff, #011B2Cff);
+
+     margin: 0px auto;
+     padding: 0px;
+     border-right: 2px solid white;
+     border-left: 2px solid white;
+     border-bottom: 2px solid white;
+     line-height: 0;
+ }
+
+ #lastContainer:hover {
+     background-image: url(images/night.gif);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #card {
+     display: block;
+     margin: auto auto;
+     width: 400px;
+     height: 300px;
+     border: 2px solid white;
+     background-image: url(images/night.gif);
+ }
+
+ #guide {
+     display: flex;
+     flex-direction: row;
+     line-height: 20px;
+ }
+
+
+ #killProfile {
+
+     margin-top: 15px;
+     margin-left: 15px;
+     margin-right: 20px;
+
+     border: 2px solid black;
+     width: 500px;
+     height: 270px;
+
+     background-image: url(images/kill.gif);
+     background-size: cover;
+     background-position: center;
+ }
+
+ #guideText {
+     margin-right: 20px;
+ }
+
+ #yourguide {
+     margin-top: 55px;
+ }
+
+ #lived {
+     margin-top: 30px;
+     margin-bottom: 30px;
+ }
+
+ /* The End :) First Project Congrats to me :) */
